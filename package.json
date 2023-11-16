@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "download": "^8.0.0"
+    "@pinia/nuxt": "^0.5.1",
+    "@supabase/supabase-js": "^2.38.4",
+    "@vue/composition-api": "^1.7.2",
+    "axios": "^1.6.2",
+    "download": "^8.0.0",
+    "pinia": "^2.1.7",
+    "workbox": "^0.0.0"
   }
 }
