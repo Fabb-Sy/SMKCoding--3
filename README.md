@@ -1,8 +1,6 @@
-# SMKCoding--3
-# SMKCoding--3
-# SMKCoding--3
-# Repository-Baru
-SMKCODING--6
-# Repository-Baru
-# SMKCODING--6
-# SMKCODING--6
+file .env tidak ada, tidak mau terupload
+Tombol submit di bagian kiri tepat dibawah form (tidak keliatan warna putih),
+Gunakan branch master untuk tugas 6 SMKCODING
+
+main = tugas 3 -- hingga sekarang
+master = tugas 6
