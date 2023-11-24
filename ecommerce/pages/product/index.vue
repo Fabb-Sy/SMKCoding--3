@@ -8,6 +8,10 @@ productStore.getAllProducts().then(() => {
 allProducts.value = productStore.products;
 });
 
+definePageMeta({
+ middleware: ["user-access"]
+});
+
 const selectedCategory = ref("");
 </script>
 

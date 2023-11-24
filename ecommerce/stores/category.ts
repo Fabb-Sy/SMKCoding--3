@@ -13,17 +13,6 @@ export const useCategoryStore = defineStore("category", {
     headers: {
     apikey: apikey,
     },
-    async createCategory(newCategory) {
-    try {
-      console.log('Creating category:', newCategory);
-      // Implement logic to create category (e.g., use Supabase API)
-      const response = await supabase.from('categories').insert([newCategory]);
-      console.log('Response:', response);
-    } catch (error) {
-      console.error('Error creating category:', error);
-      throw error;
-    }
-  },
     })
     
     if(error.value){
@@ -40,7 +29,7 @@ export const useCategoryStore = defineStore("category", {
           const { baseUrl, apikey } = useAppConfig();
           const { data, error } = await useFetch('/rest/v1/categories', {
             baseURL: baseUrl,
-            method: 'GET',
+            method: 'POST',
             headers: {
               apikey: apikey,
               'Content-Type': 'application/json',
