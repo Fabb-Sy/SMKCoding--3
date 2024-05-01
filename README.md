@@ -1,4 +1,4 @@
-Gunakan branch master untuk tugas 6 SMKCODING
+## Gunakan branch master untuk tugas 6 SMKCODING
 
-main = tugas 3 -- hingga sekarang
-master = tugas 6
+# main = tugas 3 -- hingga sekarang
+# master = tugas 6
